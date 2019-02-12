@@ -6,9 +6,9 @@
 <?php
 include("db.php");
 include("header.php");
-
-
 ?> 
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,6 +31,7 @@ include("header.php");
 <div class ="panel panel-default">
     <div class="panel panel-heading">
     <h2>
+    <h3><div class ="well text-center">Date:<?php echo date("Y-m-d");?></div></h3>
     <a class ="btn btn-success" href="add.php">Add Students</a>
     <a class ="btn btn-info pull-right" href="viewall.php">View All</a>
     </h2>
